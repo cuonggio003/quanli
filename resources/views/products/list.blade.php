@@ -25,7 +25,7 @@
                     <th>Số lượng</th>
                     <th>Ảnh</th></th>
                     <th>Trạng thái</th>
-
+                    <th>Hành động</th>
                 </tr>
                 @forelse($products as $key => $product)
                     <tr id="produst-item-{{ $product->id }}">
