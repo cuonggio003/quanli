@@ -1,6 +1,7 @@
 @extends('home')
 @section('content')
     <div class="main-container">
+        <h1 class="text-success">Chỉnh sửa sản phẩm </h1>
         <form method="post" action="{{ route('edit.product', $product->id) }}" enctype="multipart/form-data">
             @csrf
             <div class="form-row">

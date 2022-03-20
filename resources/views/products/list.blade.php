@@ -2,7 +2,7 @@
 @section('content')
 <div class="xs-pd-20-10 pd-ltr-20">
     <div class="card mt-2">
-        <h5 class="card-header">Danh sách nhân viên
+        <h5 class="card-header">Danh sách sản phẩm
             <a class="btn btn-outline-warning" href="{{ route('create.product') }}">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                     class="bi bi-pencil-square" viewBox="0 0 16 16">

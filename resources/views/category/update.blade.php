@@ -1,6 +1,7 @@
 @extends('home')
 @section('content')
     <div class="main-container">
+        <h1 class="text-success">Chỉnh sửa danh mục</h1>
         <form method="post" action="{{ route('edit.category', $categorie->id) }}" enctype="multipart/form-data">
             @csrf
             <div class="form-group col-md-6">

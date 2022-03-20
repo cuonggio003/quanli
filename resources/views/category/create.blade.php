@@ -2,7 +2,7 @@
 @section('content')
 <div class="main-container">
     <section class="get-in-touch">
-        <h1 class="text-success">Thêm mới </h1>
+        <h1 class="text-success">Thêm mới danh mục </h1>
         <form method="post" action="{{ route('store.category') }}" enctype="multipart/form-data" required>
             @csrf
             <div class="form-group col-md-6">
